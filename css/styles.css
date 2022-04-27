@@ -10,6 +10,10 @@ body {
 
 }
 
+.list {
+  list-style: none;
+}
+
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -24,10 +28,6 @@ body {
 
 .list-force:hover {
   color: #2196F3;
-}
-
-.informacion {
-  margin-left: 1073px;
 }
 
 
