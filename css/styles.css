@@ -9,7 +9,8 @@ body {
   background-color: #ffffff;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus {
   color: #2196F3;
 }
 
