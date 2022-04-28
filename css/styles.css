@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto',
     sans-serif;
   background: #E5E5E5;
-  color: #212121;
+  color: #757575;
 }
 
 /* Панель навігації */
@@ -25,6 +25,16 @@ body {
 
 .logo-footer {
   color: #ffffff;
+}
+
+/* Силки конаткту навігації */
+.force-contact:hover,
+.force-contact:focus {
+  color: #2196F3;
+}
+
+.force-contact {
+  color: #757575;
 }
 
 /* силки  */
