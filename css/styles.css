@@ -5,19 +5,12 @@ body {
   color: #212121;
 }
 
+/* Панель навігації */
 .navigation {
   background-color: #ffffff;
 }
 
-.navigation a:hover,
-.navigation a:focus {
-  color: #2196F3;
-}
-
-.list {
-  list-style: none;
-}
-
+/* Логотип компанії */
 .logo {
   font-style: normal;
   font-weight: 700;
@@ -30,15 +23,17 @@ body {
   color: #000000;
 }
 
-.list-force:hover {
-  color: #2196F3;
-}
-
-
 .logo-footer {
   color: #ffffff;
 }
 
-.address {
+/* силки  */
+.navigation a:hover,
+.navigation a:focus {
+  color: #2196F3;
+}
+
+/* списки */
+.list {
   list-style: none;
 }
