@@ -46,6 +46,12 @@ body {
   color: #2196F3;
 }
 
+.navigation a,
+.force-contact,
+.lst-portfolio a {
+  text-decoration: none;
+}
+
 /* списки */
 .list {
   list-style: none;
