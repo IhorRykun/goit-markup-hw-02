@@ -55,9 +55,10 @@ body {
 /* списки */
 .list {
   list-style: none;
+  color: #212121;
 }
 
-.list-force {
+.list-force a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
