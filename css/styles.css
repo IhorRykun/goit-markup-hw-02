@@ -4,6 +4,7 @@
   --grey-cl: #757575;
   --black-cl: #212121;
   --white-cl: #FFFFFF;
+  --bgk-btn: #F5F4FA;
 }
 
 body {
@@ -128,7 +129,8 @@ ul {
   background-color: var(--blue-cl)
 }
 
-.main-btn {
+.main-btn,
+.btn-portfolio {
   cursor: pointer;
 }
 
@@ -176,4 +178,26 @@ ul {
 .ylica {
   text-decoration: none;
   color: var(--white-cl);
+}
+
+/* сторінка портфоліо */
+.Visual-hidden {
+  transform: scale(0);
+  position: fixed;
+}
+
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--black-cl);
+  font-size: var(--bgk-btn);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white-cl);
+  background-color: var(--blue-cl);
+
 }
