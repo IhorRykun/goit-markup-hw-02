@@ -23,6 +23,10 @@ body {
   background-color: var(--white-cl);
 } */
 
+.list-force .carent {
+  color: var(--blue-cl);
+}
+
 /* Логотип компанії */
 .logo {
   font-family: 'Raleway';
