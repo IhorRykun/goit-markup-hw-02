@@ -1,67 +1,90 @@
+:root {
+  --milk-cl: #E5E5E5;
+  --blue-cl: #2196F3;
+  --grey-cl: #757575;
+  --black-cl: #212121;
+  --white-cl: #FFFFFF;
+
+}
+
 body {
   font-family: 'Roboto',
     sans-serif;
-  background: #E5E5E5;
-  color: #212121;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+
+  color: var(--grey-cl);
 }
 
 /* Панель навігації */
 .navigation {
-  background-color: #ffffff;
+  background-color: var(--white-cl);
 }
 
 /* Логотип компанії */
 .logo {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  color: #2196F3;
-  font-family: 'Raleway',
-    sans-serif;
+  line-height: 1.19;
+
+  color: var(--blue-cl);
 }
 
-.logo-header {
-  color: #000000;
-}
-
-.logo-footer {
-  color: #ffffff;
-}
-
-/* Силки конаткту навігації */
-.force-contact:hover,
-.force-contact:focus {
-  color: #2196F3;
-}
-
-.force-contact {
-  color: #757575;
-}
-
-/* силки  */
-.navigation a:hover,
-.navigation a:focus {
-  color: #2196F3;
-}
-
-.navigation a,
-.force-contact,
-.lst-portfolio a {
+.logo {
   text-decoration: none;
 }
 
-/* списки */
-.list {
-  list-style: none;
-  color: #212121;
+.logo-header {
+  color: var(--black-cl);
 }
+
+.logo-footer {
+  color: var(--white-cl);
+}
+
+/* Силки конаткту навігації */
 
 .list-force a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  color: #212121;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--black-cl);
 }
+
+ul {
+  list-style: none;
+}
+
+.list-force a:hover,
+.list-force a:focus {
+  color: var(--blue-cl);
+}
+
+.list-force a {
+  text-decoration: none;
+}
+
+.force-contact:hover,
+.force-contact:focus {
+  color: #2196F3;
+}
+
+.force-contact {}
+
+/* силки  */
+.navigation a:hover,
+.navigation a:focus {}
+
+.navigation a,
+.force-contact,
+.lst-portfolio a {}
+
+/* списки */
+.list {}
