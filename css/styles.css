@@ -16,6 +16,7 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--grey-cl);
+  background-color: var(--milk-cl);
 }
 
 /* Панель навігації */
@@ -71,20 +72,58 @@ ul {
   text-decoration: none;
 }
 
+/* Контакти */
+.force-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--grey-cl)
+}
+
+.force-contact {
+  text-decoration: none;
+}
+
 .force-contact:hover,
 .force-contact:focus {
   color: #2196F3;
 }
 
-.force-contact {}
+/* мейн-контент */
+.main-section {
+  background-color: #2F303A;
+}
 
-/* силки  */
-.navigation a:hover,
-.navigation a:focus {}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-cl);
+}
 
-.navigation a,
-.force-contact,
-.lst-portfolio a {}
+/* конопка мейна */
 
-/* списки */
-.list {}
+.main-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-cl);
+  background-color: var(--blue-cl);
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background-color: var(--blue-cl)
+}
+
+.main-btn {
+  cursor: pointer;
+}
