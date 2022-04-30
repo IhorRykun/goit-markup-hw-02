@@ -199,5 +199,25 @@ ul {
 .btn-portfolio:focus {
   color: var(--white-cl);
   background-color: var(--blue-cl);
+}
 
+.list a {
+  text-decoration: none;
+}
+
+.lst-portfolio a:focus {
+  background-color: var(--blue-cl);
+}
+
+.lst-portfolio-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-cl);
+}
+
+.lst-paragraph {
+  font-size: 16px;
+  line-height: 1.89;
 }
