@@ -127,3 +127,11 @@ ul {
 .main-btn {
   cursor: pointer;
 }
+
+/* секція особливості */
+.list-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-cl);
+}
