@@ -156,6 +156,10 @@ ul {
   color: var(--black-cl);
 }
 
+.list-li {
+  background-color: var(--white-cl);
+}
+
 /* наша команда */
 .cmd-title {
   font-weight: 700;
