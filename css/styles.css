@@ -51,6 +51,11 @@ body {
   color: var(--white-cl);
 }
 
+.logo:hover,
+.logo:focus {
+  color: var(--blue-cl);
+}
+
 /* Силки конаткту навігації */
 
 .list-force a {
