@@ -223,6 +223,10 @@ ul {
   color: var(--black-cl);
 }
 
+.lst-portfolio {
+  background-color: var(--white-cl);
+}
+
 .lst-paragraph {
   font-size: 16px;
   line-height: 1.88;
