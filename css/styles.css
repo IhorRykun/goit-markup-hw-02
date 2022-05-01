@@ -166,6 +166,10 @@ ul {
   color: var(--black-cl);
 }
 
+.list-cmd {
+  background-color: var(--white-cl);
+}
+
 .cmd-user {
   font-weight: 500;
   font-size: 16px;
