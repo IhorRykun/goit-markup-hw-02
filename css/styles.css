@@ -213,14 +213,14 @@ ul {
 .lst-portfolio-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 2.00;
   text-transform: uppercase;
   color: var(--black-cl);
 }
 
 .lst-paragraph {
   font-size: 16px;
-  line-height: 1.89;
+  line-height: 1.88;
 }
 
 .address {
