@@ -170,6 +170,10 @@ ul {
   color: var(--black-cl);
 }
 
+.tim {
+  background-color: #F5F4FA;
+}
+
 .list-cmd {
   background-color: var(--white-cl);
 }
