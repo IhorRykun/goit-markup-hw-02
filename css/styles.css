@@ -164,7 +164,6 @@ ul {
   line-height: 1.17;
   text-align: center;
   color: var(--black-cl);
-  background-color: var(--white-cl);
 }
 
 .cmd-user {
