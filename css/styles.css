@@ -19,10 +19,9 @@ body {
   background-color: var(--milk-cl);
 }
 
-/* Панель навігації */
-/* .navigation {
+.header {
   background-color: var(--white-cl);
-} */
+}
 
 .list-force .carent {
   color: var(--blue-cl);
