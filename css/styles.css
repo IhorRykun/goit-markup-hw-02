@@ -131,7 +131,7 @@ ul {
 .main-btn:hover,
 .main-btn:focus,
 .main-btn:active {
-  background-color: var(--blue-cl)
+  background-color: #188CE8;
 }
 
 .main-btn,
