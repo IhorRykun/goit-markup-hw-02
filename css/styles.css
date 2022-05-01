@@ -153,6 +153,7 @@ ul {
 
 /* наша команда */
 .cmd-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   line-height: 1.17;
