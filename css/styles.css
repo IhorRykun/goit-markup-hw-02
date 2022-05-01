@@ -144,6 +144,7 @@ ul {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+
   color: var(--black-cl);
 }
 
@@ -153,6 +154,7 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
   color: var(--black-cl);
 }
 
@@ -167,6 +169,7 @@ ul {
   line-height: 42px;
   line-height: 1.17;
   text-align: center;
+
   color: var(--black-cl);
 }
 
@@ -183,6 +186,7 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
   color: var(--black-cl);
 }
 
@@ -195,6 +199,7 @@ ul {
 .address {
   text-decoration: none;
   font-style: normal;
+
   color: var(--white-cl);
 }
 
@@ -204,11 +209,16 @@ ul {
   position: fixed;
 }
 
+.main-portfolio {
+  background-color: var(--white-cl);
+}
+
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+
   color: var(--black-cl);
   font-size: var(--bgk-btn);
 }
@@ -232,6 +242,7 @@ ul {
   font-size: 14px;
   line-height: 2.00;
   text-transform: uppercase;
+
   color: var(--black-cl);
 }
 
@@ -248,8 +259,4 @@ ul {
 /* футер */
 .footer {
   background-color: #2F303A;
-}
-
-.main-portfolio {
-  background-color: var(--white-cl);
 }
