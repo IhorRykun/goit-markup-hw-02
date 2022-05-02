@@ -218,7 +218,8 @@ ul {
   text-align: center;
 
   color: var(--black-cl);
-  font-size: var(--bgk-btn);
+  background: #F5F4FA;
+  border-radius: 4px;
 }
 
 .btn-portfolio:hover,
