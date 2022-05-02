@@ -87,7 +87,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--grey-cl)
+  color: var(--grey-cl);
 }
 
 .force-contact {
@@ -201,7 +201,7 @@ ul {
 }
 
 /* сторінка портфоліо */
-.Visual-hidden {
+.visual-hidden {
   transform: scale(0);
   position: fixed;
 }
@@ -256,4 +256,14 @@ ul {
 /* футер */
 .footer {
   background-color: #2F303A;
+}
+
+.footer-contact {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:focus,
+.footer-contact:hover {
+  color: var(--blue-cl);
 }
